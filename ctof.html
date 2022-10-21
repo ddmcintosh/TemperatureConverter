@@ -54,11 +54,24 @@
 
     <!--Celsius Image-->
     <img
+      class="cmainimage"
       src="images/ctofhead.png"
       alt="Theromometer"
       height="500"
       width="450"
     />
+
+    <!--Celsius Calculator-->
+    <p>
+      <label>Celsius</label>
+      <input id="inputCelsius" type="text" placeholder="Celsius" />
+    </p>
+    <p>
+      <input id="btnCalculate1" type="button" value="calculate" />
+    </p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+    <!--Paragraphs of Info-->
 
     <h2 class="ctofhead">Celsius and Fahrenheit definition</h2>
     <p>
@@ -101,7 +114,7 @@
       </tr>
     </table>
 
-    <script src="index.js"></script>
+    <script src="scripts/ctof.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

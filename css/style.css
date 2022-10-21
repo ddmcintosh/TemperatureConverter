@@ -14,7 +14,7 @@ p {
 
 
 
-
+/*Fahrenheit to Celsius*/
 
 
 
@@ -24,4 +24,27 @@ p {
 .ctofhead {
  padding: 20px;
  margin: 10px;
+}
+img.cmainimage {
+    padding: 10px;
+    margin: 10px;
+}
+.calcContentBlock {
+    padding: 20px;
+    margin: 10px;
+}
+#calContainer {
+    padding: 40px;
+    margin: 30px;
+}
+#tempButtons {
+    padding: 20px;
+    margin-right: 40;
+}
+.calQuantityDrop {
+ margin-right: 40px;
+}
+.heatexhaust {
+    text-align: center;
+    float: left;
 }
