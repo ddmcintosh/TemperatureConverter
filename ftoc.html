@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="index.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,10 +46,64 @@
       </div>
     </nav>
 
+    <!--Fahrenheit Image-->
+    <img src="images/fahrenheit image.png" alt="Fahrenheit image" height="500" width="450">
+
+
+    <!--Creating the Temperature-->
+    <div class="fcalccontainer">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <h1 class="heading display-5 pb-3">Fahrenheit to Celsius</h1>
+                <form id="fahrenheit-form">
+                  <div class="input group">
+                    <input type="number" class="form-control" id="ftemp" placeholder="temperature">
+                  </div>  
+                </form>
+        </div>
+    </div>
+                    <button type id="ftocbutton">Convert to Celsius</button>
+
+                <input type="textbox"  class="form-control" id="fahrenheitconvert">
+
+     
+
+
+        <h2>What is Fahrenheit</h2>
+        <p>Fahrenheit is the temperature scale used in the U.S. named after physicist Daniel Gabriel Fahrenheit . The scale sets the freezing point of water at 32 degrees (32F) and the boiling point at 212 degrees (212F).</p>
+        <p>The most widely used temperature scale is the Celsius scale which is used in most countries that use the Metric system.</p>
+
+
+    <h2>Why is Converting Fahrenheit to Celsius so Complicated?</h2>
+        <p>Most things we measure – length, width, time etc. have one thing in common – their values all start from zero. We all know exactly how long zero centimeters or inches is, and can convert zero of any of those units into another type of unit very easily. Zero centimeters = zero meters = zero inches. Taking inches and centimeters as an example, to go from zero inches to 1 inch we need to add one inch. So far, so obvious.</p>
+        <p>Temperature units aren't built in the same simple way, because they don't all start in the same place at zero. If we pegged absolute zero to be 0°F, 0°C and 0K, converting between them would be much easier, but Fahrenheit and Celsius were defined before we could tell where absolute zero was, and as a result Fahrenheit, Celsius and Kelvin all start from different values</p>
+        <p>Because these temperature units don’t share a common zero point, we need to add or subtract an offset before we do our division or multiplication. It's not a difficult extra step, but it seems to be something that can cause confusion. As a rough rule of thumb:
+            To go from Fahrenheit to Celsius, take 30 off the Fahrenheit value, and then half that number.
+            For a 100% accurate answer, subtract 32 and divide by 1.8 (or use the calculator above!)
+            </p>
+
+
+
+
+    <!--Show Formula-->
+    <h2>Show Formula</h2>
+    <h3> Fahrenheit to Celsius Formula</h3>
+    <p> C&deg; = F&deg; - 32 / 1.8000 </p>
+
+
+
+
+
+
+
+
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
